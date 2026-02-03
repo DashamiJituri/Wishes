@@ -85,7 +85,7 @@ button {
 .tile {
   width: 100px;
   height: 100px;
-  background-image: url("assets/naruto.png");
+  background-image: url("assets/naruto2.png");
   background-size: 300px 300px;
   cursor:pointer
 }
