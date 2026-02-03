@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Bash</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Birthday Bash</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#music">Music</a>
+        <a href="#game">Game</a>
+      </nav>
+    </header>
+
+    <section id="home" class="home">
+      <div class="overlay">
+        <h2>Happy Birthday, Handsome!</h2>
+        <p>
+        Today is all about celebrating you — Happiest Birthday to most handsome man I know 
+        I always love to spend time with you, you always make me feel safe and secure 
+        Be it emotionally, mentally or physically, The Time we spend together where golden
+        memories of mine, I wish you to become successfull, happy and calm forever and
+         ever, with or without me .... Happiest Birthday again and may bappa bless you 
+         with lots of happiness and success!!!.....
+        </p>
+        <button onclick="startCelebration()">
+          Start the Celebration
+        </button>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>Favorite Moments</h2>
+      <p>Some snapshots that always make me smile.</p>
+      <div class="gallery">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR2JR9hXjZXJE3JEFHap0kCXTpw9AvM8ZgXw&s"
+          alt="Friends laughing together"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwxqEFFZrw0hP-loDu-tW-vfjGCDIpfDpRMQ&s"
+          alt="Best friends celebrating"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwT9XA4Kbf44RbH8peTY2SZ4rz1ZhTgRK3w&s"
+          alt="Memories with friends"
+        />
+      </div>
+    </section>
+
+    <section id="music" class="section">
+      <h2>Our Song</h2>
+      <p>Hit play for the vibe that always feels like us.</p>
+      <audio controls>
+        <source
+          src="c:\Users\hp\Downloads\happy-birthday-471211 (1).mp3"
+          type="audio/mpeg"
+        />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section id="game" class="section">
+      <h2>Bestie Puzzle</h2>
+      <p>Complete the puzzle to unlock a surprise note.</p>
+      <div id="puzzle"></div>
+
+      <div id="envelope-container" style="display: none;">
+        <div id="envelope" onclick="openEnvelope()">
+          <div class="envelope-back"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="letter">
+            Thanks for being the friend who shows up, checks in, and always has
+            my back. You are the kind of best friend everyone wishes for. Wishing
+            you a year full of wins, peace, and good memories.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <canvas id="confetti"></canvas>
+    <script src="./script.js"></script>
+  </body>
+</html>
