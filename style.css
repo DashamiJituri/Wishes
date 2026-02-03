@@ -85,7 +85,7 @@ button {
 .tile {
   width: 100px;
   height: 100px;
-  background-image: url("file:///C:/Users/hp/.cursor/projects/c-Users-hp-abcd/assets/c__Users_hp_AppData_Roaming_Cursor_User_workspaceStorage_1a4f0536108d4b8cf135d02e7b97914b_images_image-25fc4dd0-d098-41e6-b0e6-88250a403238.png");
+  background-image: url("assets/naruto.png");
   background-size: 300px 300px;
   cursor:pointer
 }
